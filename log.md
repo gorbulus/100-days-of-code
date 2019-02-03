@@ -1,30 +1,27 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: February 3, 2019
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Completed HW 4 for COP2034C Programming in Python.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** My professor asks us to hardcode string literals as constants, so this was a new way of structuring for me.  I figured out how to format one decimal place, and that you could include the ```{ }``` in your string literal and the ```.format()``` method would work.  
 
-**Link to work:** [Calculator App](http://www.example.com)
+### Here is an  example:
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+```
+# Price, discount rate
+purchase_price = 199.99
+total_discount = .15
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+# Calculates purchase price
+purchase_price = purchase_price - (purchase_price * total_discount)
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+# Format token within the string literal
+CUSTOMER_TOTAL = "Your total purchase price is ${:.1f}"
+CUSTOMER_DISCOUNT = "That quantity qualifies for a {}% discount."
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+# Format method with constant string
+print(CUSTOMER_TOTAL.format(purchase_price))
+print(CUSTOMER_DISCOUNT.format(round(total_discount * 100), 2))
+```
+**Link to work:** [HW4](https://repl.it/@gorbulus/COP2034CHW4)
