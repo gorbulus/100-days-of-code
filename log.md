@@ -24,4 +24,5 @@ CUSTOMER_DISCOUNT = "That quantity qualifies for a {}% discount."
 print(CUSTOMER_TOTAL.format(purchase_price))
 print(CUSTOMER_DISCOUNT.format(round(total_discount * 100), 2))
 ```
+
 **Link to work:** [HW4](https://repl.it/@gorbulus/COP2034CHW4)
