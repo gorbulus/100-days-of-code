@@ -36,13 +36,13 @@ print(CUSTOMER_DISCOUNT.format(round(total_discount * 100), 2))
 2. Intro to Data Science by RMOTR.  
 3. High-level overview of numpy and pandas libraries.
 
-##COP2034C The instructor had us design a Rock, Paper, Scissors Game that used functions, loops, and control flow (if, elif).  
+## COP2034C The instructor had us design a Rock, Paper, Scissors Game that used functions, loops, and control flow (if, elif).  
 
 To make it more interesting I implemented a dictionary data structure.
 
 **Link to work:** [Rock, Paper, Scissors](https://repl.it/@gorbulus/COP2034CLab5)
 
-###DS Intro Lab RMOTR is an online Data Science Bootcamp I have been taking since December 4th, 2018.  
+### DS Intro Lab RMOTR is an online Data Science Bootcamp I have been taking since December 4th, 2018.  
 
 Tonight was the first night in the month dedicated to Data Science so I was very excited.
 
