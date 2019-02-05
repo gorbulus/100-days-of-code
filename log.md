@@ -52,7 +52,7 @@ Tonight was the first night in the month dedicated to Data Science so I was very
 
 We covered a high-level overview of the Data Science profession and workflow, and learned about numpy and pandas.
 
-**Link to work:** [DS Lab 1](https://notebooks.rmotr.com/gorbulus/ds-intro_lab/lab)
+**Link to work:** [DS Lab 1](https://github.com/gorbulus/ds-class-1-intro-to-data-science)
 
 
 
